@@ -13,7 +13,7 @@ phases:
   pre_build:
     commands:
       - echo installing dependencies ...
-      - npm
+      - npm install
   build:
     commands:
       # tests
